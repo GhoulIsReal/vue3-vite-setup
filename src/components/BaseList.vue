@@ -9,7 +9,6 @@ import { ref } from "vue";
 
 const someObj = ref([]);
 const list = ref([1, 2, 3, 4, 5]);
-
 console.log(someObj.value.length === 0);
 </script>
 
