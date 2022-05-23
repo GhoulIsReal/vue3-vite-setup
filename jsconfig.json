@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "jsx": "preserve"
+  },
+  "vueCompilerOptions": {
+    "experimentalCompatMode": 3,
+    "experimentalDisableTemplateSupport": true
+  },
+  "include": ["src/**/*.js", "src/**/*.vue"],
+  "exclude": ["node_modules"]
+}
